@@ -1,0 +1,33 @@
+Host *
+  ForwardAgent no
+  SetEnv TERM="xterm-256color"
+  ServerAliveInterval 0
+  ServerAliveCountMax 3
+  Compression no
+  AddKeysToAgent no
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/known_hosts
+  ControlMaster no
+  ControlPath ~/.ssh/master-%r@%n:%p
+  ControlPersist no
+
+Host gitlab.com
+  IdentityFile /home/sanzo/.ssh/id_rsa
+
+Host discovery
+  Port 22
+  HostName 192.168.1.228
+  IdentityFile /home/sanzo/.ssh/id_rsa
+
+Host holodeck
+  HostName 192.168.1.106
+  IdentityFile /home/sanzo/.ssh/id_rsa
+
+Host sveglia
+  Port 8022
+  HostName 192.168.1.209
+  IdentityFile /home/sanzo/.ssh/id_rsa
+
+Host zora
+  HostName 192.168.1.225
+  IdentityFile /home/sanzo/.ssh/id_rsa
