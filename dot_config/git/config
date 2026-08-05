@@ -1,0 +1,23 @@
+[credential]
+	helper = "store"
+
+[credential "https://gist.github.com"]
+	helper = ""
+	helper = "gh auth git-credential"
+
+[credential "https://github.com"]
+	helper = ""
+	helper = "gh auth git-credential"
+
+[gpg]
+	format = "openpgp"
+
+[gpg "openpgp"]
+	program = "gpg"
+
+[push]
+	autoSetupRemote = true
+
+[user]
+	email = ""
+	name = "sanzoghenzo"
