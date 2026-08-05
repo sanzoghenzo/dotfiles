@@ -16,6 +16,6 @@ sh -c "$(curl -fsLS https://get.chezmoi.io)" -- init --apply sanzoghenzo
 
 ## Features
 
+- ensures rbw (unofficial BitWarden CLI) is installed on init
 - adds my GitHub public key to ssh authorized keys
 - switches to SSH remote after init
-
