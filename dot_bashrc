@@ -29,3 +29,12 @@ test -f /usr/share/ublue-os/bling/bling.sh && source /usr/share/ublue-os/bling/b
 
 # starship
 eval -- "$(/home/linuxbrew/.linuxbrew/bin/starship init bash --print-full-init)"
+
+# bitwarden fuzzy find
+bwf() {
+  local name
+  name=$(rbw list | fzf --prompt="Vault > ")
+  [ -n "$name" ] && rbw get "$name" | tr -d '\n' | wl-copy
+  echo "Copied: $name"
+}
+
