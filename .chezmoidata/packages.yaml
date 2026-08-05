@@ -1,9 +1,9 @@
 packages:
-  brews: []
+  brews:
+    - uv
+    - bun
   casks: []
   flatpaks:
     - md.obsidian.Obsidian
     - dev.zed.Zed
-
-
 
