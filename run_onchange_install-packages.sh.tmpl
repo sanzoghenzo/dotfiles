@@ -9,3 +9,6 @@ cask {{ . | quote }}
 {{ end -}}
 EOF
 
+{{ range .packages.flatpaks -}}
+flatpak info {{ . }} || flatpak install -y flathub {{ . }}
+{{ end }}

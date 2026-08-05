@@ -1,5 +1,9 @@
 packages:
   brews: []
   casks: []
+  flatpaks:
+    - md.obsidian.Obsidian
+    - dev.zed.Zed
+
 
 
