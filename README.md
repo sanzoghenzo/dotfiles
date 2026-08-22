@@ -35,6 +35,12 @@ Configure `rbw` login with
 rbw config set email <your email>
 ```
 
+Then unlock rbw to enable ssh agent
+
+```shell
+rbw unlock
+```
+
 ## Using bitwarden credentials in config
 
 create a config template, and use the following:
