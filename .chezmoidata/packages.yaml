@@ -2,6 +2,8 @@ packages:
   brews:
     - uv
     - bun
+    - starship
+    - bat
   casks: []
   flatpaks:
     - md.obsidian.Obsidian
