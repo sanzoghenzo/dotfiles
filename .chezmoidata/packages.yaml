@@ -8,4 +8,4 @@ packages:
   flatpaks:
     - md.obsidian.Obsidian
     - dev.zed.Zed
-
+    - it.mijorus.gearlever
