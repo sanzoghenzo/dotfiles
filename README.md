@@ -12,6 +12,11 @@ Chezmoi-based $HOME configuration.
 
 ## Initialize on a new machine
 
+> [!TIP]
+> This is best suited for zirconium OS.
+> Install bluefin or another bootc distro and then run
+> `sudo bootc switch ghcr.io/zirconium-dev/zirconium:latest`
+
 If not already present, install [homebrew](https://brew.sh), then run:
 
 ```shell
