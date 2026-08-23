@@ -5,6 +5,7 @@ packages:
     - starship
     - bat
     - mise
+    - go-task
   casks: []
   flatpaks:
     - md.obsidian.Obsidian
