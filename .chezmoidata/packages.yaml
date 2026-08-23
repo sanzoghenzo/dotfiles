@@ -4,6 +4,7 @@ packages:
     - bun
     - starship
     - bat
+    - mise
   casks: []
   flatpaks:
     - md.obsidian.Obsidian

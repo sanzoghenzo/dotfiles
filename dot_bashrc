@@ -30,6 +30,9 @@ test -f /usr/share/ublue-os/bling/bling.sh && source /usr/share/ublue-os/bling/b
 # starship
 eval -- "$(/home/linuxbrew/.linuxbrew/bin/starship init bash --print-full-init)"
 
+# mise
+eval "$(~/.local/bin/mise activate bash)"
+
 # bitwarden fuzzy find
 bwf() {
   local name
