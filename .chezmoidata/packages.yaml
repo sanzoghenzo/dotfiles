@@ -6,6 +6,7 @@ packages:
     - bat
     - mise
     - go-task
+    - podman-compose
   casks: []
   flatpaks:
     - md.obsidian.Obsidian
