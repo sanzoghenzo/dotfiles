@@ -1,0 +1,27 @@
+[bootstrap.packages]
+"brew:rbw" = "latest"
+"brew:uv" = "latest"
+"brew:bun" = "latest"
+"brew:starship" = "latest"
+"brew:bat" = "latest"
+"brew:podman-compose" = "latest"
+"brew:mise" = "latest"
+"brew:fnox" = "latest"
+"flatpak:md.obsidian.Obsidian" = "latest"
+"flatpak:dev.zed.Zed" = "latest"
+"flatpak:it.mijorus.gearlever" = "latest"
+
+[bootstrap.repos]
+"~/dev/dotfiles" = { url = "git@github.com:sanzoghenzo/dotfiles.git" }
+
+[settings]
+dotfiles.root = "~/dev/dotfiles"
+dotfiles.default_mode = "symlink"
+
+[dotfiles]
+"~/.bashrc" = { }
+"~/.ssh/config" = { }
+"~/.ssh/authorized_keys" = { }
+"~/.config/gh/config.yml" = { }
+"~/.config/git/config" = { }
+"~/.config/starship.toml" = { }

@@ -33,6 +33,9 @@ eval -- "$(/home/linuxbrew/.linuxbrew/bin/starship init bash --print-full-init)"
 # mise
 eval "$(mise activate bash)"
 
+# fnox
+eval "$(fnox activate bash)"
+
 # bitwarden fuzzy find
 bwf() {
   local name
@@ -43,4 +46,3 @@ bwf() {
 
 # rbw as ssh agent
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/rbw/ssh-agent-socket"
-

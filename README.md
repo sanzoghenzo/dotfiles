@@ -1,33 +1,20 @@
 # Sanzo's dotfiles
 
-Chezmoi-based $HOME configuration.
+[Mise](https://mise.jdx.dev)-based $HOME configuration.
 
 ## Features
 
-- ensures `rbw` (unofficial BitWarden CLI) is installed on init
-- adds my GitHub public key to ssh authorized keys
-- switches to SSH remote after init
-- installs brew packages, casks and flatpaks declared in `.chezmoidata/packages.yaml` 
-- `bwf` command for BitWarden fuzzy search
+- installs packages from homebrew and flatpaks
+- manages dotfiles
 
 ## Initialize on a new machine
 
+```shell
+curl https://raw.githubusercontent.com/sanzoghenzo/dotfiles/refs/heads/main/bootstrap.sh | sh
+```
+
 > [!TIP]
-> This is best suited for zirconium OS.
-> Install bluefin or another bootc distro and then run
-> `sudo bootc switch ghcr.io/zirconium-dev/zirconium:latest`
-
-If not already present, install [homebrew](https://brew.sh), then run:
-
-```shell
-chezmoi init --apply sanzoghenzo
-```
-
-If the OS doesn't have chezmoi already installed:
-
-```shell
-sh -c "$(curl -fsLS https://get.chezmoi.io)" -- init --apply sanzoghenzo
-```
+> This is only tested on [Zirconium OS](https://github.com/zirconium-dev/zirconium).
 
 Configure `rbw` login with
 
@@ -41,13 +28,14 @@ Then unlock rbw to enable ssh agent
 rbw unlock
 ```
 
-## Using bitwarden credentials in config
+## Add packages
 
-create a config template, and use the following:
+```shell
+mise bootstrap packages use <package-manager:package-name>
+```
 
-```tmpl
-user = {{ (rbw "item-name").data.username }}
-password = {{ (rbw "item-name").data.password }}
-# for custom fields
-key = {{ (rbw "item-name").fieldName.value }}
+## Add dotfiles
+
+```shell
+mise bootstrap dotfiles add <dotfiles-repo>
 ```
