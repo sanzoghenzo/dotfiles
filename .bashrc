@@ -46,3 +46,5 @@ bwf() {
 
 # rbw as ssh agent
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/rbw/ssh-agent-socket"
+
+alias zed="flatpak run dev.zed.Zed"
