@@ -19,7 +19,7 @@
 	autoSetupRemote = true
 
 [user]
-	email = ""
-	name = "sanzoghenzo"
+	email = andrea.ghensi@gmail.com
+	name = sanzoghenzo
 [init]
 	defaultBranch = main
