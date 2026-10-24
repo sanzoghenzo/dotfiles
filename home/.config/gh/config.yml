@@ -1,1 +1,4 @@
-/var/home/sanzo/dev/dotfiles/.config/gh/config.yml
+aliases: {}
+editor: ''
+git_protocol: https
+version: '1'
