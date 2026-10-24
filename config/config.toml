@@ -1,12 +1,8 @@
 [settings]
-dotfiles.root = "~/dev/dotfiles"
 auto_update = true
 
 [bootstrap.services.mise-history]
 builtin = "history-watch"
-
-[bootstrap.repos]
-"~/dev/dotfiles" = { url = "git@github.com:sanzoghenzo/dotfiles.git" }
 
 [bootstrap.packages]
 "brew:rbw" = "latest"
