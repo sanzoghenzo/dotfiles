@@ -1,0 +1,17 @@
+{
+  "format": 1,
+  "enrollment": [
+    {
+      "path": "home/.pi/agent/settings.json",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    }
+  ],
+  "exclude": [],
+  "recipients": [],
+  "permissions": {
+    "home/.pi": 448,
+    "home/.pi/agent": 448
+  }
+}
