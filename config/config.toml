@@ -1,0 +1,34 @@
+[settings]
+auto_update = true
+
+[bootstrap.services.mise-history]
+builtin = "history-watch"
+
+[bootstrap.packages]
+"brew:rbw" = "latest"
+"brew:podman-compose" = "latest"
+"brew:mise" = "latest"
+"flatpak:md.obsidian.Obsidian" = "latest"
+"flatpak:dev.zed.Zed" = "latest"
+"flatpak:it.mijorus.gearlever" = "latest"
+
+[tools]
+bat = "latest"
+bun = "latest"
+ffmpeg = "9.0.2"
+fnox = { version = "latest", workflow = "release.yml" }
+pi = "latest"
+ripgrep = "latest"
+starship = "latest"
+superfile = "latest"
+uv = "latest"
+
+[dotfiles]
+"~/.config/mise/config.toml" = { mode = "track" }
+"~/.bashrc" = { mode = "track" }
+"~/.config/gh/config.yml" = { mode = "track" }
+"~/.config/git/config" = { mode = "track" }
+"~/.config/starship.toml" = { mode = "track" }
+"~/.pi/agent/settings.json" = { mode = "track" }
+"~/.ssh/authorized_keys" = { mode = "track" }
+"~/.ssh/config" = {mode = "track" }

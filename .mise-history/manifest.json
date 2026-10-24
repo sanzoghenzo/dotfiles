@@ -54,6 +54,7 @@
   "recipients": [],
   "permissions": {
     "home/.config/gh": 489,
-    "home/.config/gh/config.yml": 384
+    "home/.pi": 448,
+    "home/.pi/agent": 448
   }
 }
