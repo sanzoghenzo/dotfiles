@@ -30,8 +30,16 @@ rbw unlock
 
 ## Add packages
 
+If it needs to be installed system-wide:
+
 ```shell
 mise bootstrap packages use <package-manager:package-name>
+```
+
+If it is enough to install it per-user:
+
+```
+mise use -g <tool>
 ```
 
 ## Add dotfiles
