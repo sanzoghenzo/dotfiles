@@ -1,0 +1,38 @@
+[settings]
+dotfiles.root = "~/dev/dotfiles"
+auto_update = true
+
+[bootstrap.services.mise-history]
+builtin = "history-watch"
+
+[bootstrap.repos]
+"~/dev/dotfiles" = { url = "git@github.com:sanzoghenzo/dotfiles.git" }
+
+[bootstrap.packages]
+"brew:rbw" = "latest"
+"brew:uv" = "latest"
+"brew:bun" = "latest"
+"brew:starship" = "latest"
+"brew:bat" = "latest"
+"brew:podman-compose" = "latest"
+"brew:mise" = "latest"
+"brew:fnox" = "latest"
+"flatpak:md.obsidian.Obsidian" = "latest"
+"flatpak:dev.zed.Zed" = "latest"
+"flatpak:it.mijorus.gearlever" = "latest"
+
+[tools]
+ffmpeg = "9.0.2"
+pi = "latest"
+ripgrep = "latest"
+superfile = "latest"
+
+[dotfiles]
+"~/.bashrc" = { }
+"~/.config/gh/config.yml" = { }
+"~/.config/git/config" = { }
+"~/.config/mise/config.toml" = { mode = "track" }
+"~/.config/starship.toml" = { }
+"~/.pi/agent/settings.json" = { mode = "track" }
+"~/.ssh/authorized_keys" = { }
+"~/.ssh/config" = { }
