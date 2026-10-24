@@ -21,6 +21,7 @@ builtin = "history-watch"
 bat = "latest"
 bun = "latest"
 ffmpeg = "9.0.2"
+fnox = { version = "latest", workflow = "release.yml" }
 pi = "latest"
 ripgrep = "latest"
 starship = "latest"
