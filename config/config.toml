@@ -18,6 +18,7 @@ builtin = "history-watch"
 "flatpak:it.mijorus.gearlever" = "latest"
 
 [tools]
+bun = "latest"
 ffmpeg = "9.0.2"
 pi = "latest"
 ripgrep = "latest"
