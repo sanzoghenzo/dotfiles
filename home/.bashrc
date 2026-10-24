@@ -28,7 +28,7 @@ test -f /usr/share/ublue-os/bling/bling.sh && source /usr/share/ublue-os/bling/b
 ### bling.sh source end
 
 # starship
-eval -- "$(/home/linuxbrew/.linuxbrew/bin/starship init bash --print-full-init)"
+eval -- "$($HOME/.local/share/mise/installs/starship/latest/.mise-bins/starship init bash --print-full-init)"
 
 # mise
 eval "$(mise activate bash)"
