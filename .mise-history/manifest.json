@@ -53,7 +53,7 @@
   "exclude": [],
   "recipients": [],
   "permissions": {
-    "home/.pi": 448,
-    "home/.pi/agent": 448
+    "home/.config/gh": 489,
+    "home/.config/gh/config.yml": 384
   }
 }
