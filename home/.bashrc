@@ -1,1 +1,50 @@
-/var/home/sanzo/dev/dotfiles/.bashrc
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+    . /etc/bashrc
+fi
+
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+if [ -d ~/.bashrc.d ]; then
+    for rc in ~/.bashrc.d/*; do
+        if [ -f "$rc" ]; then
+            . "$rc"
+        fi
+    done
+fi
+unset rc
+### bling.sh source start
+test -f /usr/share/ublue-os/bling/bling.sh && source /usr/share/ublue-os/bling/bling.sh
+### bling.sh source end
+
+# starship
+eval -- "$(/home/linuxbrew/.linuxbrew/bin/starship init bash --print-full-init)"
+
+# mise
+eval "$(mise activate bash)"
+
+# fnox
+eval "$(fnox activate bash)"
+
+# bitwarden fuzzy find
+bwf() {
+  local name
+  name=$(rbw list | fzf --prompt="Vault > ")
+  [ -n "$name" ] && rbw get "$name" | tr -d '\n' | wl-copy
+  echo "Copied: $name"
+}
+
+# rbw as ssh agent
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/rbw/ssh-agent-socket"
+
+alias zed="flatpak run dev.zed.Zed"
