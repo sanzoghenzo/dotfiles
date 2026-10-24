@@ -23,6 +23,7 @@ bun = "latest"
 ffmpeg = "9.0.2"
 pi = "latest"
 ripgrep = "latest"
+starship = "latest"
 superfile = "latest"
 uv = "latest"
 
