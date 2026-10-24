@@ -1,5 +1,6 @@
 {
   "lastChangelogVersion": "1.4.0",
   "defaultProvider": "openrouter",
-  "defaultModel": "nvidia/nemotron-3.5-super-vl:free"
+  "defaultModel": "nvidia/nemotron-3.5-super-vl:free",
+  "npmCommand": ["bun"]
 }
