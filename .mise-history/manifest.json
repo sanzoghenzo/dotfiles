@@ -8,7 +8,37 @@
       "variants": []
     },
     {
+      "path": "home/.config/gh/config.yml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "home/.config/git/config",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "home/.config/starship.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.pi/agent/settings.json",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "home/.ssh/authorized_keys",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "home/.ssh/config",
       "autosave": true,
       "encrypt": false,
       "variants": []
