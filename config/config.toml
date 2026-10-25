@@ -11,6 +11,7 @@ builtin = "history-watch"
 "flatpak:md.obsidian.Obsidian" = "latest"
 "flatpak:dev.zed.Zed" = "latest"
 "flatpak:it.mijorus.gearlever" = "latest"
+"pacman:rbw" = "latest"
 
 [tools]
 bat = "latest"
