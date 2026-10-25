@@ -1,7 +1,7 @@
 {
   "lastChangelogVersion": "1.4.0",
   "defaultProvider": "openrouter",
-  "defaultModel": "moonshotai/kimi-k2.6",
+  "defaultModel": "nvidia/nemotron-3.5-super-vl:free",
   "npmCommand": [
     "bun"
   ],
