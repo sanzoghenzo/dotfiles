@@ -19,6 +19,7 @@ ffmpeg = "9.0.2"
 fnox = { version = "latest", workflow = "release.yml" }
 pi = "latest"
 ripgrep = "latest"
+rust = "latest"
 starship = "latest"
 superfile = "latest"
 uv = "latest"
