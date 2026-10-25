@@ -5,13 +5,12 @@ auto_update = true
 builtin = "history-watch"
 
 [bootstrap.packages]
+"pacman:rbw" = "latest"
 "brew:rbw" = "latest"
 "brew:podman-compose" = "latest"
-"brew:mise" = "latest"
 "flatpak:md.obsidian.Obsidian" = "latest"
 "flatpak:dev.zed.Zed" = "latest"
 "flatpak:it.mijorus.gearlever" = "latest"
-"pacman:rbw" = "latest"
 
 [tools]
 bat = "latest"
