@@ -17,6 +17,7 @@ builtin = "history-watch"
 "pacman:opencloud-desktop" = "latest"
 "aur:photocraft-bin" = "latest"
 "aur:wordcraft-bin" = "latest"
+"aur:gridcraft-bin" = "latest"
 
 [tools]
 bat = "latest"
