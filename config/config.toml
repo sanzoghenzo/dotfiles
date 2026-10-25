@@ -15,6 +15,7 @@ builtin = "history-watch"
 "pacman:zed" = "latest"
 "aur:handy-bin" = "latest"
 "pacman:opencloud-desktop" = "latest"
+"aur:photocraft-bin" = "latest"
 
 [tools]
 bat = "latest"
