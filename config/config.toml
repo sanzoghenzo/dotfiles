@@ -20,6 +20,7 @@ bat = "latest"
 bun = "latest"
 ffmpeg = "9.0.2"
 fnox = { version = "latest", workflow = "release.yml" }
+herdr = "latest"
 pi = "latest"
 ripgrep = "latest"
 rust = "latest"
