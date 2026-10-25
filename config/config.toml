@@ -12,6 +12,7 @@ builtin = "history-watch"
 "flatpak:dev.zed.Zed" = "latest"
 "flatpak:it.mijorus.gearlever" = "latest"
 "pacman:obsidian" = "latest"
+"pacman:zed" = "latest"
 
 [tools]
 bat = "latest"
