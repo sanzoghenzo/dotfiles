@@ -6,6 +6,7 @@
     "bun"
   ],
   "packages": [
-    "npm:pi-web-search"
+    "npm:pi-web-search",
+    "npm:omniroute-pi-ext-integration"
   ]
 }
