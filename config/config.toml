@@ -18,6 +18,7 @@ builtin = "history-watch"
 "aur:photocraft-bin" = "latest"
 "aur:wordcraft-bin" = "latest"
 "aur:gridcraft-bin" = "latest"
+"pacman:hermes-agent-desktop" = "latest"
 
 [tools]
 bat = "latest"
