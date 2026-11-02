@@ -18,6 +18,8 @@ builtin = "history-watch"
 "aur:photocraft-bin" = "latest"
 "aur:wordcraft-bin" = "latest"
 "aur:gridcraft-bin" = "latest"
+"pacman:gvfs" = "latest"
+"pacman:gvfs-dnssd" = "latest"
 
 [tools]
 bat = "latest"
