@@ -21,7 +21,6 @@ builtin = "history-watch"
 "pacman:gvfs" = "latest"
 "pacman:gvfs-dnssd" = "latest"
 "pacman:mpv" = "latest"
-"pacman:nfs-utils" = "latest"
 
 [tools]
 bat = "latest"
