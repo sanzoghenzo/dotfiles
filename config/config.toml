@@ -21,6 +21,7 @@ builtin = "history-watch"
 "pacman:gvfs" = "latest"
 "pacman:gvfs-dnssd" = "latest"
 "pacman:mpv" = "latest"
+"aur:herdr-app-desktop-bin" = "latest"
 
 [tools]
 bat = "latest"
