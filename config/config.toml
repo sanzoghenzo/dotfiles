@@ -29,7 +29,6 @@ bun = "latest"
 ffmpeg = "9.0.2"
 fnox = { version = "latest", workflow = "release.yml" }
 gh = "latest"
-herdr = "latest"
 pi = "latest"
 ripgrep = "latest"
 rust = "latest"
