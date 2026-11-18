@@ -6,8 +6,6 @@ builtin = "history-watch"
 
 [bootstrap.packages]
 "pacman:rbw" = "latest"
-"brew:rbw" = "latest"
-"brew:podman-compose" = "latest"
 "flatpak:md.obsidian.Obsidian" = "latest"
 "flatpak:dev.zed.Zed" = "latest"
 "flatpak:it.mijorus.gearlever" = "latest"
