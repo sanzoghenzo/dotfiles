@@ -27,6 +27,7 @@ bun = "latest"
 ffmpeg = "9.0.2"
 fnox = { version = "latest", workflow = "release.yml" }
 gh = "latest"
+"github:abiosoft/incus-apply" = "0.1.2"
 pi = "latest"
 ripgrep = "latest"
 rust = "latest"
